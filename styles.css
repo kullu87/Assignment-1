@@ -1,0 +1,51 @@
+body {
+    width: 80%;
+    max-width: 1200px;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+}
+header, footer {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    clear:both;
+}
+h1, h2 {
+    color: #a5ad03;
+    font-variant: small-caps;
+}
+main {
+    width: 66.66%;
+    float: left;
+}
+aside {
+    width: 33.33%;
+    float: left;
+}
+.mainimg img {
+    border: 2px solid #12ff1a;
+}
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+ul {
+    list-style: none;
+    line-height: 1.6;
+}
+ul > li > a {
+    text-decoration: none;
+    color: #0004ff;
+}
+ul > li > a:hover {
+    color: #ff6600;
+}
+p {
+    text-align: justify;
+}
